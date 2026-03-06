@@ -1,1 +1,70 @@
-{}
+{
+    "common": {
+        "alpha": "Alpha",
+        "beta": "Beta",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "ok": "OK",
+        "openInFiles": "Open in Files",
+        "play": "Play",
+        "share": "Share",
+        "unknown": "Unknown"
+    },
+    "headings": {
+        "addServer": "Add Server",
+        "appearance": "Appearance",
+        "downloads": "Downloads",
+        "home": "Home",
+        "links": "Links",
+        "playback": "Playback",
+        "servers": "Servers",
+        "settings": "Settings"
+    },
+    "alerts": {
+        "resetApplication": {
+            "description": "Are you sure you want to reset all settings?",
+            "confirm": "Reset"
+        }
+    },
+    "addServer": {
+        "address": "Server Address",
+        "validation": {
+            "empty": "$t(addServer.address) cannot be empty",
+            "invalid": "$t(addServer.address) is invalid",
+            "invalidProduct": "Not a Jellyfin server",
+            "noConnection": "Could not connect to server"
+        }
+    },
+    "downloads": {
+        "noDownloads": {
+            "heading": "No downloads",
+            "description": "Content you download will appear here."
+        }
+    },
+    "home": {
+        "errors": {
+            "502": {
+                "description": "Unable to reach the Jellyfin server. This is usually because of a proxy configuration error or Jellyfin is offline."
+            },
+            "504": {
+                "description": "Unable to reach the Jellyfin server. This is usually because the proxy timed out while connecting to Jellyfin."
+            },
+            "http": {
+                "heading": "Something went wrong!",
+                "description": "The Jellyfin server returned an error."
+            },
+            "invalidServer": {
+                "heading": "Server is invalid",
+                "description": "Something has happened and the saved server information is invalid. Try removing the server from Settings and add it again."
+            },
+            "offline": {
+                "heading": "Server offline?",
+                "description": "Error contacting Jellyfin server."
+            }
+        },
+        "errorCode": "Error code: {{errorCode}}",
+        "errorUrl": "URL: {{url}}",
+        "retry": "Try again?"
+    }
+}
