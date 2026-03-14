@@ -49,8 +49,64 @@
                 "description": "Jellyfin 伺服器返回錯誤。"
             },
             "invalidServer": {
-                "heading": "伺服器無效"
+                "heading": "伺服器無效",
+                "description": "出咗啲狀況，你儲存嘅伺服器資訊失效咗。試下喺「設定」入面刪除個伺服器，再重新加入過。"
+            },
+            "offline": {
+                "heading": "伺服器離線？",
+                "description": "連接唔到 Jellyfin 伺服器。"
             }
+        },
+        "errorCode": "錯誤代碼：{{errorCode}}",
+        "errorUrl": "網址：{{url}}",
+        "retry": "再試一次？"
+    },
+    "serverHelp": {
+        "heading": "乜嘢係 Jellyfin？",
+        "description": "Jellyfin 係由義工開發嘅媒體解決方案。你可以用佢嚟架設自己嘅媒體庫，隨時隨地都可以睇。\n\n\n要用呢個客戶端，你需要自己架設一個 Jellyfin 伺服器。",
+        "learnMore": "了解點樣架設你自己嘅伺服器"
+    },
+    "settings": {
+        "downloadTranscoding": "下載時轉碼",
+        "version": "版本：{{version}}",
+        "keepAwake": "保持螢幕長亮",
+        "nativeVideoPlayer": "使用原生影片播放器",
+        "fmp4Support": "優先使用 HLS 格式嘅 fMP4",
+        "lightTheme": "使用淺色主題",
+        "systemTheme": "跟隨系統主題",
+        "rotationLock": "鎖定旋轉（螢幕方向）",
+        "tabLabels": "顯示籤頁名稱"
+    },
+    "links": {
+        "documentation": "使用手冊",
+        "website": "Jellyfin 網站",
+        "source": "原始碼",
+        "translate": "翻譯",
+        "help": "尋求協助"
+    },
+    "alerts": {
+        "deleteDownloads": {
+            "title": "刪除下載內容",
+            "description": "呢啲檔案將會喺呢部裝置入面永久刪除。",
+            "confirm": "刪除 {{downloadCount}} 個下載內容"
+        },
+        "deleteServer": {
+            "title": "刪除伺服器",
+            "description": "你確定要刪除伺服器「{{serverName}}」嗎？",
+            "confirm": "刪除"
+        },
+        "downloadFailed": {
+            "title": "下載失敗",
+            "description": "「{{title}}」下載失敗。"
+        },
+        "missingDownload": {
+            "title": "下載內容遺失",
+            "description": "呢個下載檔案好似喺 Jellyfin App 以外嘅地方被刪除咗。"
+        },
+        "resetApplication": {
+            "title": "重設應用程式",
+            "description": "你確定要重設所有設定嗎？",
+            "confirm": "重設"
         }
     }
 }
