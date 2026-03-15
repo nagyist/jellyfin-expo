@@ -39,10 +39,10 @@
     "home": {
         "errors": {
             "502": {
-                "description": "無法連接 Jellyfin 伺服器。通常是代理（Proxy）設定錯誤，或 Jellyfin 已離線。"
+                "description": "無法連接 Jellyfin 伺服器。通常係代理（Proxy）設定錯誤，或者 Jellyfin 已經離線。"
             },
             "504": {
-                "description": "無法連接 Jellyfin 伺服器。通常是代理在連線至 Jellyfin 時逾時所致。"
+                "description": "無法連接 Jellyfin 伺服器。通常係因為代理喺連線嗰陣逾時。"
             },
             "http": {
                 "heading": "有嘢出錯！",
@@ -63,7 +63,7 @@
     },
     "serverHelp": {
         "heading": "乜嘢係 Jellyfin？",
-        "description": "Jellyfin 係由義工開發嘅媒體解決方案。你可以用佢嚟架設自己嘅媒體庫，隨時隨地都可以睇。\n\n\n要用呢個客戶端，你需要自己架設一個 Jellyfin 伺服器。",
+        "description": "Jellyfin 係一套由義工開發嘅媒體解決方案，畀你自己架設媒體庫，隨時隨地都可以睇。\n\n\n要用呢個客戶端，你需要自己有一部架設好嘅 Jellyfin 伺服器。",
         "learnMore": "了解點樣架設你自己嘅伺服器"
     },
     "settings": {
