@@ -39,10 +39,10 @@
     "home": {
         "errors": {
             "502": {
-                "description": "無法連接 Jellyfin 伺服器。通常係代理（Proxy）設定錯誤，或者 Jellyfin 已經離線。"
+                "description": "連唔到去 Jellyfin 伺服器。通常係因為 Proxy（代理）設定出咗錯，或者 Jellyfin 熄咗機。"
             },
             "504": {
-                "description": "無法連接 Jellyfin 伺服器。通常係因為代理喺連線嗰陣逾時。"
+                "description": "連唔到去 Jellyfin 伺服器。通常係因為 Proxy（代理）喺連線嗰陣逾時，等唔到回應。"
             },
             "http": {
                 "heading": "有嘢出錯！",
@@ -64,7 +64,7 @@
     "serverHelp": {
         "heading": "乜嘢係 Jellyfin？",
         "description": "Jellyfin 係一套由義工開發嘅媒體解決方案，畀你自己架設媒體庫，隨時隨地都可以睇。\n\n\n要用呢個客戶端，你需要自己有一部架設好嘅 Jellyfin 伺服器。",
-        "learnMore": "了解點樣架設你自己嘅伺服器"
+        "learnMore": "了解點樣架設你自己嘅 Jellyfin 伺服器"
     },
     "settings": {
         "downloadTranscoding": "下載時轉碼",
@@ -87,12 +87,12 @@
     "alerts": {
         "deleteDownloads": {
             "title": "刪除下載內容",
-            "description": "呢啲檔案將會喺呢部裝置入面永久刪除。",
+            "description": "呢啲檔案將會由呢部機永久刪除。",
             "confirm": "刪除 {{downloadCount}} 個下載內容"
         },
         "deleteServer": {
             "title": "刪除伺服器",
-            "description": "你確定要刪除伺服器「{{serverName}}」嗎？",
+            "description": "你確定要刪除伺服器「{{serverName}}」？",
             "confirm": "刪除"
         },
         "downloadFailed": {
@@ -105,7 +105,7 @@
         },
         "resetApplication": {
             "title": "重設應用程式",
-            "description": "你確定要重設所有設定嗎？",
+            "description": "你確定要重設所有設定？",
             "confirm": "重設"
         }
     }
