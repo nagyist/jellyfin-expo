@@ -24,16 +24,16 @@
     "addServer": {
         "address": "伺服器網址",
         "validation": {
-            "empty": "$t(addServer.address)地址不得留空",
+            "empty": "$t(addServer.address) 唔可以留空",
             "invalid": "$t(addServer.address) 無效",
-            "invalidProduct": "此伺服器並非 Jellyfin",
-            "noConnection": "連接服務器失敗"
+            "invalidProduct": "呢個唔係 Jellyfin 伺服器",
+            "noConnection": "連唔到去伺服器"
         }
     },
     "downloads": {
         "noDownloads": {
             "heading": "沒有下載項目",
-            "description": "你下載的內容會在此顯示。"
+            "description": "你下載咗嘅內容會喺呢度顯示。"
         }
     },
     "home": {
@@ -46,7 +46,7 @@
             },
             "http": {
                 "heading": "有嘢出錯！",
-                "description": "Jellyfin 伺服器返回錯誤。"
+                "description": "Jellyfin 伺服器傳回咗一個錯誤。"
             },
             "invalidServer": {
                 "heading": "伺服器無效",
@@ -54,7 +54,7 @@
             },
             "offline": {
                 "heading": "伺服器離線？",
-                "description": "連接唔到 Jellyfin 伺服器。"
+                "description": "連唔到去 Jellyfin 伺服器。"
             }
         },
         "errorCode": "錯誤代碼：{{errorCode}}",
@@ -70,8 +70,8 @@
         "downloadTranscoding": "下載時轉碼",
         "version": "版本：{{version}}",
         "keepAwake": "保持螢幕長亮",
-        "nativeVideoPlayer": "使用原生影片播放器",
-        "fmp4Support": "優先使用 HLS 格式嘅 fMP4",
+        "nativeVideoPlayer": "用返系統原生嘅播放器",
+        "fmp4Support": "優先用 HLS 入面嘅 fMP4",
         "lightTheme": "使用淺色主題",
         "systemTheme": "跟隨系統主題",
         "rotationLock": "鎖定旋轉（螢幕方向）",
