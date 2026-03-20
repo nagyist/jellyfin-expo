@@ -39,10 +39,10 @@
     "home": {
         "errors": {
             "502": {
-                "description": "連唔到去 Jellyfin 伺服器。通常係因為 Proxy（代理）設定出咗錯，或者 Jellyfin 熄咗機。"
+                "description": "連唔到去 Jellyfin 伺服器。通常係因爲 Proxy（代理）設定出咗錯，或者 Jellyfin 熄咗機。"
             },
             "504": {
-                "description": "連唔到去 Jellyfin 伺服器。通常係因為 Proxy（代理）喺連線嗰陣逾時，等唔到回應。"
+                "description": "連唔到去 Jellyfin 伺服器。通常係因爲 Proxy（代理）喺連線嗰陣逾時，等唔到回應。"
             },
             "http": {
                 "heading": "有嘢出錯！",
