@@ -9,5 +9,16 @@
         "edit": "Editar",
         "play": "Reproducir",
         "share": "Compartir"
+    },
+    "headings": {
+        "downloads": "Descargas",
+        "home": "Inicio",
+        "links": "Enlaces",
+        "playback": "Reproducción",
+        "servers": "Servidores",
+        "settings": "Configuración"
+    },
+    "addServer": {
+        "address": "Dirección del Servidor"
     }
 }
