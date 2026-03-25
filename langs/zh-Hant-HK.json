@@ -24,7 +24,7 @@
     "addServer": {
         "address": "伺服器網址",
         "validation": {
-            "empty": "$t(addServer.address) 唔可以留空",
+            "empty": "$t(addServer.address) 唔可以漏空",
             "invalid": "$t(addServer.address) 無效",
             "invalidProduct": "呢個唔係 Jellyfin 伺服器",
             "noConnection": "連唔到去伺服器"
@@ -63,7 +63,7 @@
     },
     "serverHelp": {
         "heading": "乜嘢係 Jellyfin？",
-        "description": "Jellyfin 係一套由義工開發嘅媒體解決方案，畀你自己架設媒體庫，隨時隨地都可以睇。\n\n\n要用呢個客戶端，你需要自己有一部架設好嘅 Jellyfin 伺服器。",
+        "description": "Jellyfin 係一套由義工開發嘅媒體解決方案，畀你自己架設媒體櫃，隨時隨地都可以睇。\n\n\n要用呢個客戶端，你需要自己有一部架設好嘅 Jellyfin 伺服器。",
         "learnMore": "了解點樣架設你自己嘅 Jellyfin 伺服器"
     },
     "settings": {
