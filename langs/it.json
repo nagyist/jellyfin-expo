@@ -95,7 +95,7 @@
         },
         "missingDownload": {
             "description": "Sembra che questo download sia stato eliminato al di fuori dell'applicazione Jellyfin.",
-            "title": "Download mancante"
+            "title": "Download Mancante"
         }
     },
     "serverHelp": {
