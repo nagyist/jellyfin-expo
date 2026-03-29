@@ -94,8 +94,8 @@
             "description": "Downloaden van \"{{title}}\" is mislukt."
         },
         "missingDownload": {
-            "title": "Download Mist",
-            "description": "Deze download lijkt verplaatst te zijn buiten de Jellyfin app om."
+            "title": "Ontbrekende Download",
+            "description": "Deze download lijkt buiten de Jellyfin app verwijderd te zijn."
         }
     },
     "serverHelp": {
