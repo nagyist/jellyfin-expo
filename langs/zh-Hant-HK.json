@@ -3,7 +3,7 @@
         "alpha": "ALPHA",
         "beta": "BETA",
         "cancel": "取消",
-        "delete": "刪除",
+        "delete": "刪走",
         "edit": "編輯",
         "ok": "OK",
         "openInFiles": "於「檔案」中開啟",
@@ -50,7 +50,7 @@
             },
             "invalidServer": {
                 "heading": "伺服器無效",
-                "description": "出咗啲狀況，你儲存嘅伺服器資訊失效咗。試下喺「設定」入面刪除個伺服器，再重新加入過。"
+                "description": "出咗啲狀況，你儲存嘅伺服器資訊失效咗。試下喺「設定」入面刪走個伺服器，再重新加入過。"
             },
             "offline": {
                 "heading": "伺服器離線？",
@@ -86,14 +86,14 @@
     },
     "alerts": {
         "deleteDownloads": {
-            "title": "刪除下載內容",
-            "description": "呢啲檔案將會由呢部機永久刪除。",
-            "confirm": "刪除 {{downloadCount}} 個下載內容"
+            "title": "刪走下載內容",
+            "description": "呢啲檔案將會由呢部機永久刪走。",
+            "confirm": "刪走 {{downloadCount}} 個下載內容"
         },
         "deleteServer": {
-            "title": "刪除伺服器",
-            "description": "你確定要刪除伺服器「{{serverName}}」？",
-            "confirm": "刪除"
+            "title": "刪走伺服器",
+            "description": "你確定要刪走伺服器「{{serverName}}」？",
+            "confirm": "刪走"
         },
         "downloadFailed": {
             "title": "下載失敗",
@@ -101,7 +101,7 @@
         },
         "missingDownload": {
             "title": "下載內容遺失",
-            "description": "呢個下載檔案好似喺 Jellyfin App 以外嘅地方被刪除咗。"
+            "description": "呢個下載檔案好似喺 Jellyfin App 以外嘅地方被刪走咗。"
         },
         "resetApplication": {
             "title": "重設應用程式",
