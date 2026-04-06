@@ -8,7 +8,8 @@
         "delete": "Hapus",
         "play": "Putar",
         "openInFiles": "Buka dalam File",
-        "share": "Bagikan"
+        "share": "Bagikan",
+        "alpha": "Alpha"
     },
     "headings": {
         "addServer": "Tambahkan Server",
