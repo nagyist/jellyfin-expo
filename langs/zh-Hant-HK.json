@@ -57,7 +57,7 @@
                 "description": "連唔到去 Jellyfin 伺服器。"
             }
         },
-        "errorCode": "錯誤代碼：{{errorCode}}",
+        "errorCode": "錯誤碼：{{errorCode}}",
         "errorUrl": "網址：{{url}}",
         "retry": "再試一次？"
     },
@@ -80,7 +80,7 @@
     "links": {
         "documentation": "使用手冊",
         "website": "Jellyfin 網站",
-        "source": "原始碼",
+        "source": "原始程式碼",
         "translate": "翻譯",
         "help": "尋求協助"
     },
