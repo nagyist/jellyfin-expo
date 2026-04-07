@@ -32,7 +32,7 @@
     },
     "downloads": {
         "noDownloads": {
-            "heading": "沒有下載項目",
+            "heading": "冇嘢下載",
             "description": "你下載咗嘅內容會喺呢度顯示。"
         }
     },
@@ -45,7 +45,7 @@
                 "description": "連唔到去 Jellyfin 伺服器。通常係因為 Proxy（代理）喺連線嗰陣逾時，等唔到回應。"
             },
             "http": {
-                "heading": "有嘢出錯！",
+                "heading": "有嘢出咗啲問題！",
                 "description": "Jellyfin 伺服器傳回咗一個錯誤。"
             },
             "invalidServer": {
@@ -59,11 +59,11 @@
         },
         "errorCode": "錯誤碼：{{errorCode}}",
         "errorUrl": "網址：{{url}}",
-        "retry": "再試一次？"
+        "retry": "試多次？"
     },
     "serverHelp": {
         "heading": "乜嘢係 Jellyfin？",
-        "description": "Jellyfin 係一套由義工開發嘅媒體解決方案，畀你自己架設媒體櫃，隨時隨地都可以睇。\n\n\n要用呢個客戶端，你需要自己有一部架設好嘅 Jellyfin 伺服器。",
+        "description": "Jellyfin 係一套由志願者開發嘅媒體解決方案。你可以用佢嚟架設屬於你自己、隨時隨地都可以存取媒體嘅伺服器。\n\n\n如果你想用呢個用戶端，你需要先架設一個你自己嘅 Jellyfin 伺服器。",
         "learnMore": "了解點樣架設你自己嘅 Jellyfin 伺服器"
     },
     "settings": {
