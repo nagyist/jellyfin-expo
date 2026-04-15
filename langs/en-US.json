@@ -1,7 +1,7 @@
 {
     "common": {
-        "alpha": "Alpha",
-        "beta": "Beta",
+        "alpha": "ALPHA",
+        "beta": "BETA",
         "cancel": "Cancel",
         "delete": "Delete",
         "edit": "Edit",
@@ -25,6 +25,16 @@
         "resetApplication": {
             "description": "Are you sure you want to reset all settings?",
             "confirm": "Reset"
+        },
+        "deleteDownloads": {
+            "title": "Delete Downloads",
+            "description": "These items will be permanently deleted from this device.",
+            "confirm": "Delete {{downloadCount}} Downloads"
+        },
+        "deleteServer": {
+            "title": "Delete Server",
+            "description": "Are you sure you want to delete the server {{serverName}}?",
+            "confirm": "Delete"
         }
     },
     "addServer": {
@@ -69,6 +79,25 @@
     },
     "serverHelp": {
         "heading": "What is Jellyfin?",
-        "description": "Jellyfin is the volunteer-built media solution. It allows you to host your own media and access it from anywhere.\n\n\n\n\n\nIn order to use this client, you need to host your own Jellyfin server."
+        "description": "Jellyfin is the volunteer-built media solution. It allows you to host your own media and access it from anywhere.\n\n\n\n\n\nIn order to use this client, you need to host your own Jellyfin server.",
+        "learnMore": "Learn more about how to host your own server"
+    },
+    "settings": {
+        "downloadTranscoding": "Transcoded Downloads",
+        "keepAwake": "Keep Screen Awake",
+        "nativeVideoPlayer": "Use Native Video Player",
+        "fmp4Support": "Prefer fMP4 in HLS",
+        "lightTheme": "Use Light Theme",
+        "systemTheme": "Use System Theme",
+        "tabLabels": "Show Tab Labels",
+        "version": "Version: {{version}}",
+        "rotationLock": "Rotation Lock"
+    },
+    "links": {
+        "website": "Jellyfin Website",
+        "documentation": "Documentation",
+        "source": "Source Code",
+        "translate": "Translate",
+        "help": "Getting Help"
     }
 }
