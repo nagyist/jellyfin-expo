@@ -24,7 +24,8 @@
     "alerts": {
         "resetApplication": {
             "description": "Are you sure you want to reset all settings?",
-            "confirm": "Reset"
+            "confirm": "Reset",
+            "title": "Reset Application"
         },
         "deleteDownloads": {
             "title": "Delete Downloads",
@@ -35,6 +36,14 @@
             "title": "Delete Server",
             "description": "Are you sure you want to delete the server {{serverName}}?",
             "confirm": "Delete"
+        },
+        "downloadFailed": {
+            "title": "Download Failed",
+            "description": "\"{{title}}\" failed to download."
+        },
+        "missingDownload": {
+            "title": "Missing Download",
+            "description": "This download seems to have been removed outside the Jellyfin app."
         }
     },
     "addServer": {
