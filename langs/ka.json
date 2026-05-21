@@ -1,1 +1,34 @@
-{}
+{
+    "common": {
+        "alpha": "ALPHA",
+        "beta": "BETA",
+        "cancel": "გაუქმება",
+        "delete": "წაშლა",
+        "edit": "ჩასწორება",
+        "ok": "დიახ",
+        "play": "დაკვრა",
+        "share": "გაზიარება",
+        "unknown": "უცნობი"
+    },
+    "headings": {
+        "appearance": "გარეგნობა",
+        "downloads": "გადმოწერები",
+        "home": "საწყისი",
+        "links": "ბმულები",
+        "playback": "დაკვრა",
+        "servers": "სერვერები",
+        "settings": "პარამეტრები"
+    },
+    "links": {
+        "documentation": "დოკუმენტაცია",
+        "translate": "თარგმანი"
+    },
+    "alerts": {
+        "deleteServer": {
+            "confirm": "წაშლა"
+        },
+        "resetApplication": {
+            "confirm": "ჩამოყრა"
+        }
+    }
+}
