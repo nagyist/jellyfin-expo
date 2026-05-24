@@ -8,7 +8,8 @@
         "ok": "დიახ",
         "play": "დაკვრა",
         "share": "გაზიარება",
-        "unknown": "უცნობი"
+        "unknown": "უცნობი",
+        "openInFiles": "ფაილებში გახსნა"
     },
     "headings": {
         "appearance": "გარეგნობა",
@@ -17,18 +18,79 @@
         "links": "ბმულები",
         "playback": "დაკვრა",
         "servers": "სერვერები",
-        "settings": "პარამეტრები"
+        "settings": "პარამეტრები",
+        "addServer": "სერვერის დამატება"
     },
     "links": {
         "documentation": "დოკუმენტაცია",
-        "translate": "თარგმანი"
+        "translate": "თარგმანი",
+        "website": "Jellyfin-ის ვებსაიტი",
+        "source": "წყარო კოდი",
+        "help": "დახმარების მიღება"
     },
     "alerts": {
         "deleteServer": {
-            "confirm": "წაშლა"
+            "confirm": "წაშლა",
+            "title": "სერვერის წაშლა"
         },
         "resetApplication": {
-            "confirm": "ჩამოყრა"
+            "confirm": "ჩამოყრა",
+            "title": "აპლიკაციის ჩამოყრა"
+        },
+        "deleteDownloads": {
+            "title": "გადმოწერების წაშლა",
+            "confirm": "{{downloadCount}} გადმოწერის წაშლა"
+        },
+        "downloadFailed": {
+            "title": "გადმოწერა ჩავარდა",
+            "description": "\"{{title}}\"-ის გადმოწერა ჩავარდა."
+        },
+        "missingDownload": {
+            "title": "ნაკლული გადმოწერა"
         }
+    },
+    "addServer": {
+        "address": "სერვერის მისამართი",
+        "validation": {
+            "invalid": "$t(addServer.address) არასწორია",
+            "empty": "$t(addServer.address) ცარიელი ვერ იქნება",
+            "invalidProduct": "Jellyfin-ის სერვერი არაა"
+        }
+    },
+    "downloads": {
+        "noDownloads": {
+            "heading": "გადმოწერების გარეშე"
+        }
+    },
+    "home": {
+        "errors": {
+            "offline": {
+                "heading": "სერვერი ინტერნეტის გარეშეა?",
+                "description": "Jellyfin-ის სერვერთან დაკავშირების შეცდომა."
+            },
+            "http": {
+                "heading": "რაღაც არასწორად წავიდა!"
+            },
+            "invalidServer": {
+                "heading": "სერვერი არასწორია"
+            }
+        },
+        "errorUrl": "URL: {{url}}",
+        "retry": "ცდით კიდევ?",
+        "errorCode": "შეცდომის კოდი: {{errorCode}}"
+    },
+    "settings": {
+        "downloadTranscoding": "ტრანსკოდირებული გადმოწერები",
+        "version": "ვერსია: {{version}}",
+        "rotationLock": "მობრუნების დაბლოკვა",
+        "keepAwake": "ეკრანის არდაძინება",
+        "lightTheme": "ღია თემის გამოყენება",
+        "systemTheme": "სისტემის თემის გამოყენება",
+        "tabLabels": "ჩანართის ჭდეების ჩვენება",
+        "nativeVideoPlayer": "საკუთარი ვიდეოდამკვრელის გამოყენება",
+        "fmp4Support": "fMP4-ის გამოყენება HLS-ში"
+    },
+    "serverHelp": {
+        "heading": "რა არის Jellyfin?"
     }
 }
