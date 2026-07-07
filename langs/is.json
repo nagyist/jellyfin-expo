@@ -57,7 +57,8 @@
     },
     "serverHelp": {
         "heading": "Hvað er Jellyfin?",
-        "learnMore": "Lærðu meira hvernig þú getur hýst þinn eiginn þjón"
+        "learnMore": "Lærðu meira hvernig þú getur hýst þinn eiginn þjón",
+        "description": "Jellyfin er streymisveita sem byggir á sjálfboðaliða vinnu hönnuða. Það leyfir þér að hýsa þitt eigið safn af fjölmiðlum og nálgast það hvar sem er. \n\n\nTil að þú getir notið þessa þjónustu þarftu að hýsa þinn eigin Jellyfin þjón."
     },
     "settings": {
         "version": "Útgáfa: {{version}}",
