@@ -37,7 +37,6 @@ const NativeShellWebView: ForwardRefRenderFunction<WebView, NativeShellWebViewPr
 	const { t } = useTranslation();
 
 	const server = serverStore.servers[settingStore.activeServer];
-	const isPluginSupported = !!server.info?.Version && compareVersions.compare(server.info.Version, '10.7', '>=');
 
 	const injectedJavaScript = `
 window.ExpoAppInfo = {
@@ -48,7 +47,6 @@ window.ExpoAppInfo = {
 };
 
 window.ExpoAppSettings = {
-	isPluginSupported: ${isPluginSupported},
 	isNativeVideoPlayerEnabled: ${settingStore.isNativeVideoPlayerEnabled},
 	isExperimentalNativeAudioPlayerEnabled: ${settingStore.isExperimentalNativeAudioPlayerEnabled}
 };
