@@ -99,7 +99,8 @@
             "description": "Mistókst að sækja \"{{title}}\"."
         },
         "missingDownload": {
-            "title": "Vantar Niðurhal"
+            "title": "Vantar Niðurhal",
+            "description": "Þessari skrá virðist hafa verið eytt utan Jellyfin."
         }
     },
     "downloads": {
