@@ -46,7 +46,7 @@ jobs:
             echo "Bumping version to ${{ env.version }} (build ${{ inputs.build_version }})"
             jq --arg bv "${{ inputs.build_version }}" --arg v "${{ env.version }}" '.expo.version |= $v | .expo.ios.buildNumber |= $bv' app.json > app.tmp.json && mv app.tmp.json app.json
             npm run build -- --no-install
-            npm version "${{ env.version }}"
+            npm version --allow-same-version "${{ env.version }}"
             git add app.json ios/Jellyfin/Info.plist package.json package-lock.json
             git checkout .
           COMMIT_MESSAGE: "Bump build number to ${{ inputs.build_version }}"
