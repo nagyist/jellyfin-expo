@@ -95,7 +95,7 @@
         },
         "missingDownload": {
             "title": "ダウンロードが欠落しています",
-            "description": "このダウンロードは、Jellyfinアプリ外で削除されたようです。"
+            "description": "このダウンロードは、Jellyfin アプリ外で削除されたようです。"
         }
     },
     "serverHelp": {
